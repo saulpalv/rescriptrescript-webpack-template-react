@@ -11,6 +11,7 @@ module.exports = (env, argv) => {
     const mode = argv.mode
     const isDevelopment = mode === "development"
     return {
+        target: 'web',
         mode: isDevelopment ? 'development' : 'production',
         entry: './src/index.tsx',
         devtool: 'inline-source-map',
