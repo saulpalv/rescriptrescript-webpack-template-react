@@ -1,0 +1,9 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  & > :nth-child(2) {
+
+    background-color: dimgray;
+  }
+}
